@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Leistungen von ROLKO: 3D-Scanning, technischer 3D-Druck, Reverse Engineering und Maschinenbau.">
+    <title>Leistungen | ROLKO</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/main.js" defer></script>
+</head>
+<body>
+
+<header>
+    <div class="container navbar">
+        <a class="logo" href="index.html">ROL<span>KO</span></a>
+
+        <nav class="nav-links" aria-label="Hauptnavigation">
+            <a href="index.html">Startseite</a>
+            <a class="active" href="leistungen.html">Leistungen</a>
+            <a href="ueber-uns.html">Über uns</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a class="language" href="../en/services.html" aria-label="Englische Version">EN</a>
+            <button class="menu-toggle" type="button"
+                    aria-label="Menü öffnen" aria-expanded="false">☰</button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="page-hero">
+        <div class="container">
+            <span class="eyebrow">Unsere Kompetenz</span>
+            <h1>Leistungen</h1>
+            <p>
+                Von der digitalen Erfassung bis zum gefertigten Bauteil:
+                Wir entwickeln praktische Lösungen für technische
+                Herausforderungen.
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+
+            <article class="service-row" id="scanning">
+                <h2>01. 3D-Scanning</h2>
+                <div>
+                    <p>
+                        Mit 3D-Scanning lässt sich die Geometrie eines
+                        vorhandenen Bauteils digital erfassen. Die
+                        gewonnenen Daten können zur Analyse, Konstruktion,
+                        Anpassung und Rekonstruktion genutzt werden.
+                    </p>
+                </div>
+            </article>
+
+            <article class="service-row" id="druck">
+                <h2>02. Technischer 3D-Druck</h2>
+                <div>
+                    <p>
+                        Der 3D-Druck ermöglicht die Fertigung individueller
+                        Bauteile und Prototypen aus geeigneten technischen
+                        Materialien. Material und Konstruktion richten
+                        sich nach dem vorgesehenen Einsatz und den
+                        Betriebsbedingungen.
+                    </p>
+                </div>
+            </article>
+
+            <article class="service-row" id="reverse-engineering">
+                <h2>03. Reverse Engineering</h2>
+                <div>
+                    <p>
+                        Ist ein Originalbauteil beschädigt oder nur schwer
+                        erhältlich, kann Reverse Engineering helfen,
+                        seine Geometrie anhand eines vorhandenen Bauteils
+                        oder verfügbarer technischer Daten zu rekonstruieren.
+                    </p>
+                </div>
+            </article>
+
+            <article class="service-row" id="maschinenbau">
+                <h2>04. Maschinenbau</h2>
+                <div>
+                    <p>
+                        Unsere ingenieurtechnische Arbeit konzentriert
+                        sich darauf, die Aufgabenstellung zu verstehen
+                        und Lösungen zu entwickeln, die zu den jeweiligen
+                        technischen Anforderungen passen.
+                    </p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="section section-light">
+        <div class="container">
+            <div class="cta">
+                <div>
+                    <h2>Lassen Sie uns über Ihr Projekt sprechen</h2>
+                    <p>
+                        Eine gute Lösung beginnt damit, die Aufgabe
+                        genau zu verstehen.
+                    </p>
+                </div>
+                <a class="button button-primary" href="kontakt.html">
+                    ROLKO kontaktieren →
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <a class="logo" href="index.html">ROL<span>KO</span></a>
+            <div class="footer-links">
+                <a href="index.html">Startseite</a>
+                <a href="ueber-uns.html">Über uns</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+        </div>
+        <small>© <span class="current-year">2026</span> ROLKO. Alle Rechte vorbehalten.</small>
+    </div>
+</footer>
+
+<script>
+    document.querySelectorAll(".current-year").forEach(element => {
+        element.textContent = new Date().getFullYear();
+    });
+</script>
+
+</body>
+</html>

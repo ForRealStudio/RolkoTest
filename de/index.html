@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ROLKO – Maschinenbau, 3D-Scanning, technischer 3D-Druck und Reverse Engineering.">
+    <title>ROLKO | Maschinenbau und 3D-Druck</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/main.js" defer></script>
+</head>
+<body>
+
+<header>
+    <div class="container navbar">
+        <a class="logo" href="index.html">ROL<span>KO</span></a>
+
+        <nav class="nav-links" aria-label="Hauptnavigation">
+            <a class="active" href="index.html">Startseite</a>
+            <a href="leistungen.html">Leistungen</a>
+            <a href="ueber-uns.html">Über uns</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a class="language" href="../en/index.html" aria-label="Englische Version">EN</a>
+            <button class="menu-toggle" type="button"
+                    aria-label="Menü öffnen" aria-expanded="false">☰</button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container hero-grid">
+            <div>
+                <span class="eyebrow">Maschinenbau · 3D-Technologie</span>
+
+                <h1>Wir rekonstruieren Bauteile.<br>Wir schaffen <span>Lösungen.</span></h1>
+
+                <p>
+                    ROLKO ist auf Maschinenbau, 3D-Scanning und 3D-Druck
+                    mit technischen Materialien spezialisiert. Wir
+                    rekonstruieren und fertigen Bauteile nach vorhandenen
+                    Vorlagen – auch anhand beschädigter Komponenten –
+                    mithilfe von Reverse Engineering.
+                </p>
+
+                <div class="hero-buttons">
+                    <a class="button button-primary" href="leistungen.html">
+                        Unsere Leistungen entdecken →
+                    </a>
+                    <a class="button button-secondary" href="kontakt.html">
+                        Kontakt aufnehmen
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual" role="img"
+                 aria-label="Stilisierte Darstellung eines technischen Bauteils">
+                <div class="visual-grid"></div>
+                <div class="part"></div>
+                <div class="visual-label">PRÄZISION · QUALITÄT · TECHNIK</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-heading">
+                <span class="eyebrow">Was wir tun</span>
+                <h2>Technische Lösungen nach Maß</h2>
+                <p>
+                    Praktische Lösungen für Industrie, Werkstätten
+                    und Privatkunden.
+                </p>
+            </div>
+
+            <div class="cards">
+                <article class="card">
+                    <div class="card-icon">3D</div>
+                    <h3>3D-Scanning</h3>
+                    <p>
+                        Digitale Erfassung der Geometrie vorhandener
+                        Bauteile zur Analyse, Konstruktion und
+                        Rekonstruktion.
+                    </p>
+                    <a class="text-link" href="leistungen.html#scanning">
+                        Mehr erfahren →
+                    </a>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">+</div>
+                    <h3>3D-Druck</h3>
+                    <p>
+                        Fertigung individueller Bauteile und Prototypen
+                        aus technischen Materialien, abgestimmt auf
+                        den jeweiligen Einsatzzweck.
+                    </p>
+                    <a class="text-link" href="leistungen.html#druck">
+                        Mehr erfahren →
+                    </a>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">⚙</div>
+                    <h3>Reverse Engineering</h3>
+                    <p>
+                        Rekonstruktion von Bauteilen anhand vorhandener
+                        Komponenten, auch wenn diese beschädigt oder
+                        schwer erhältlich sind.
+                    </p>
+                    <a class="text-link" href="leistungen.html#reverse-engineering">
+                        Mehr erfahren →
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-light">
+        <div class="container">
+            <div class="cta">
+                <div>
+                    <h2>Sie möchten ein Bauteil rekonstruieren lassen?</h2>
+                    <p>
+                        Beschreiben Sie uns Ihr Bauteil und die
+                        technische Herausforderung.
+                    </p>
+                </div>
+                <a class="button button-primary" href="kontakt.html">
+                    Kontakt aufnehmen →
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <a class="logo" href="index.html">ROL<span>KO</span></a>
+            <div class="footer-links">
+                <a href="leistungen.html">Leistungen</a>
+                <a href="ueber-uns.html">Über uns</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+        </div>
+        <small>© <span class="current-year">2026</span> ROLKO. Alle Rechte vorbehalten.</small>
+    </div>
+</footer>
+
+<script>
+    document.querySelectorAll(".current-year").forEach(element => {
+        element.textContent = new Date().getFullYear();
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Usługi ROLKO: skanowanie 3D, druk 3D z materiałów technicznych, inżynieria wsteczna i mechaniczna.">
+    <title>Usługi | ROLKO</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/main.js" defer></script>
+</head>
+<body>
+
+<header>
+    <div class="container navbar">
+        <a class="logo" href="index.html">ROL<span>KO</span></a>
+
+        <nav class="nav-links" aria-label="Menu główne">
+            <a href="index.html">Strona główna</a>
+            <a class="active" href="uslugi.html">Usługi</a>
+            <a href="o-nas.html">O nas</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a class="language" href="../en/services.html" aria-label="English version">EN</a>
+            <button class="menu-toggle" type="button"
+                    aria-label="Otwórz menu" aria-expanded="false">☰</button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="page-hero">
+        <div class="container">
+            <span class="eyebrow">Nasza specjalizacja</span>
+            <h1>Usługi</h1>
+            <p>
+                Od cyfrowego odwzorowania elementu po wykonanie
+                fizycznej części — pomagamy rozwiązywać konkretne
+                problemy techniczne.
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+
+            <article class="service-row" id="skanowanie">
+                <h2>01. Skanowanie 3D</h2>
+                <div>
+                    <p>
+                        Skanowanie 3D umożliwia cyfrowe odwzorowanie
+                        geometrii istniejącego elementu. Uzyskane dane
+                        mogą być wykorzystywane do analizy, projektowania,
+                        modyfikacji i odtwarzania części.
+                    </p>
+                </div>
+            </article>
+
+            <article class="service-row" id="druk">
+                <h2>02. Druk 3D z materiałów technicznych</h2>
+                <div>
+                    <p>
+                        Druk 3D pozwala wykonywać niestandardowe części,
+                        prototypy i elementy na zamówienie. Dobór materiału
+                        oraz konstrukcji zależy od planowanego zastosowania
+                        i warunków pracy elementu.
+                    </p>
+                </div>
+            </article>
+
+            <article class="service-row" id="inzynieria-wsteczna">
+                <h2>03. Inżynieria wsteczna</h2>
+                <div>
+                    <p>
+                        Gdy oryginalna część jest uszkodzona lub trudno
+                        dostępna, inżynieria wsteczna może pomóc odtworzyć
+                        jej geometrię na podstawie istniejącego elementu
+                        lub dostępnych danych technicznych.
+                    </p>
+                </div>
+            </article>
+
+            <article class="service-row" id="inzynieria-mechaniczna">
+                <h2>04. Inżynieria mechaniczna</h2>
+                <div>
+                    <p>
+                        Prace inżynierskie koncentrują się na zrozumieniu
+                        problemu i opracowaniu rozwiązania dopasowanego
+                        do wymagań konkretnego projektu.
+                    </p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="section section-light">
+        <div class="container">
+            <div class="cta">
+                <div>
+                    <h2>Porozmawiajmy o Twoim projekcie</h2>
+                    <p>
+                        Każde rozwiązanie zaczyna się od poznania
+                        problemu i potrzeb.
+                    </p>
+                </div>
+                <a class="button button-primary" href="kontakt.html">
+                    Skontaktuj się z ROLKO →
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <a class="logo" href="index.html">ROL<span>KO</span></a>
+            <div class="footer-links">
+                <a href="index.html">Strona główna</a>
+                <a href="o-nas.html">O nas</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+        </div>
+        <small>© <span class="current-year">2026</span> ROLKO. Wszelkie prawa zastrzeżone.</small>
+    </div>
+</footer>
+
+<script>
+    document.querySelectorAll(".current-year").forEach(element => {
+        element.textContent = new Date().getFullYear();
+    });
+</script>
+
+</body>
+</html>

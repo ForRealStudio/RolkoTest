@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Poznaj ROLKO — inżynieria mechaniczna, skanowanie 3D, inżynieria wsteczna i druk 3D.">
+    <title>O nas | ROLKO</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/main.js" defer></script>
+</head>
+<body>
+
+<header>
+    <div class="container navbar">
+        <a class="logo" href="index.html">ROL<span>KO</span></a>
+
+        <nav class="nav-links" aria-label="Menu główne">
+            <a href="index.html">Strona główna</a>
+            <a href="uslugi.html">Usługi</a>
+            <a class="active" href="o-nas.html">O nas</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a class="language" href="../en/about.html" aria-label="English version">EN</a>
+            <button class="menu-toggle" type="button"
+                    aria-label="Otwórz menu" aria-expanded="false">☰</button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="page-hero">
+        <div class="container">
+            <span class="eyebrow">Poznaj ROLKO</span>
+            <h1>Wyzwania techniczne.<br>Praktyczne rozwiązania.</h1>
+            <p>
+                Łączymy inżynierię mechaniczną, skanowanie 3D,
+                inżynierię wsteczną i druk 3D z materiałów technicznych,
+                aby pomagać w odtwarzaniu części i realizacji
+                indywidualnych potrzeb.
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container contact-grid">
+            <div>
+                <span class="eyebrow">Nasze podejście</span>
+
+                <h2 style="font-size: 34px; margin-bottom: 20px;">
+                    Precyzja, trwałość i indywidualne podejście
+                </h2>
+
+                <p style="color: var(--muted); margin-bottom: 18px;">
+                    Każdy projekt zaczyna się od poznania elementu,
+                    jego przeznaczenia oraz problemu, który trzeba
+                    rozwiązać.
+                </p>
+
+                <p style="color: var(--muted);">
+                    Wspieramy przemysł, warsztaty oraz klientów
+                    indywidualnych w poszukiwaniu rozwiązań
+                    dopasowanych do konkretnych potrzeb.
+                </p>
+            </div>
+
+            <div class="contact-panel">
+                <h2>Co jest dla nas ważne?</h2>
+
+                <p>
+                    <strong>Precyzja</strong><br>
+                    Dbałość o geometrię elementów i wymagania projektu.
+                </p>
+
+                <p>
+                    <strong>Trwałość</strong><br>
+                    Uwzględnianie przeznaczenia części przy doborze
+                    materiałów i metod wykonania.
+                </p>
+
+                <p>
+                    <strong>Indywidualne podejście</strong><br>
+                    Poszukiwanie rozwiązań odpowiadających potrzebom
+                    konkretnego projektu.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-light">
+        <div class="container">
+            <div class="cta">
+                <div>
+                    <h2>Szukasz rozwiązania technicznego?</h2>
+                    <p>
+                        Opowiedz nam, jaką część chcesz odtworzyć
+                        lub jaki problem rozwiązać.
+                    </p>
+                </div>
+                <a class="button button-primary" href="kontakt.html">
+                    Skontaktuj się →
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <a class="logo" href="index.html">ROL<span>KO</span></a>
+            <div class="footer-links">
+                <a href="uslugi.html">Usługi</a>
+                <a href="index.html">Strona główna</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+        </div>
+        <small>© <span class="current-year">2026</span> ROLKO. Wszelkie prawa zastrzeżone.</small>
+    </div>
+</footer>
+
+<script>
+    document.querySelectorAll(".current-year").forEach(element => {
+        element.textContent = new Date().getFullYear();
+    });
+</script>
+
+</body>
+</html>
